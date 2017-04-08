@@ -4,7 +4,7 @@ import java.util.*;
 
 public class ConsoleScanner {
     private List<Command> commands;
-    private String commandPrefix, paramPrefix;
+    private String commandPrefix, paramPrefix, defaultKey;
     private boolean running;
     private Thread thread;
     private Scanner input;
@@ -19,6 +19,7 @@ public class ConsoleScanner {
     public ConsoleScanner(String commandPrefix, String paramPrefix, boolean sync) {
         this.commandPrefix = commandPrefix;
         this.paramPrefix = paramPrefix;
+        defaultKey = "DEFAULT";
         commands = new ArrayList<>();
         input = new Scanner(System.in);
         if(sync){ return; }
@@ -42,6 +43,7 @@ public class ConsoleScanner {
     }
 
     public void start(){
+        if(thread==null){return;}
         thread.run();
     }
 
@@ -72,14 +74,15 @@ public class ConsoleScanner {
 
     private Map<String, List<String>> getParams(Scanner scn){
         Map<String, List<String>> params = new HashMap<>();
-        String key = null;
+        String key = defaultKey;
         while (scn.hasNext()) {
             String token = scn.next();
             if(token.contains(paramPrefix)) {
-                key = token;
+                key = token.replace(paramPrefix, "");
                 params.put(key, new ArrayList<>());
             } else {
-                if (key!=null) { params.get(key).add(token); }
+                if (key== defaultKey &&params.get(defaultKey)==null){params.put(defaultKey, new ArrayList<>());}
+                params.get(key).add(token);
             }
         }
         scn.close();
@@ -89,6 +92,14 @@ public class ConsoleScanner {
     public void stop(){
         running = false;
         input.close();
+    }
+
+    public String getDefaultKey() {
+        return defaultKey;
+    }
+
+    public void setDefaultKey(String defaultKey) {
+        this.defaultKey = defaultKey;
     }
 
     public void setError(String error) {
