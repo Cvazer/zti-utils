@@ -64,7 +64,7 @@ public class Main {
     public static void main(String[] args) {
         ConsoleScanner scanner = new ConsoleScanner("/", "-");
         scanner.addCommand(new Command("say", "").setConsumer(map -> map.get(scanner.getDefaultKey()).forEach(System.out::println)));
-        scanner.start();
+        scanner.scan();
     }
 }
 ```
