@@ -100,3 +100,47 @@ Hello
 
 Process finished with exit code 0
 ```
+### Serializer ###
+
+Класс, реализующий процесс сериализации объектов, расширяющих интерфейс _Serializable_. 
+
+Для того, чтобы использовать сереализатор, необходимо создать экземпляр класса, и указать тип данных с которымон будет работать, а в качестве параметра передать путь к фалу в который (из которого) будет произведена сериализация\десериализация, или объект типа _File_.
+```java
+Serializer<Object> serializer = new Serializer<>(String filePath);
+```
+Вместо типа данных _Object_ укажите тип данных, с которым будет работать данный экземпляр
+
+###### Операции сереализации и десереализации ######
+
+Для того, чтобы провести операцию сереализации достаточно вызвать на объекте метод ```serializer.serialaize(Object obj)```, котоырй сереализирует объект в файл по пути заданному в конструкторе при инициализации, или в файл переданный в конструктор.
+Пример кода сереализации строки в файл:
+```java
+import by.zti.main.serializer.Serializer;
+
+public class Main {
+    public static void main(String[] args) {
+        Serializer<String> serializer = new Serializer<>("test.ser");
+        serializer.serialize("Test string");
+    }
+}
+```
+В результате выполнения кода в корне программы появится файл с названием "test", и расширением "ser" (test.ser).
+
+Для того, чтобы десереализовать объект из файла по пути, или файла переданного в конструктор при инициализации достаточно просто вызвать на сериализаторе метор ```serializer.deserialize()```, котоырй вернет объект типа соответствующего тому, который был задан при объявлении сериализатора.
+Пример десериализации строки из файла:
+```java
+import by.zti.main.serializer.Serializer;
+
+public class Main {
+    public static void main(String[] args) {
+        Serializer<String> serializer = new Serializer<>("test.ser");
+        System.out.println(serializer.deserialize());
+    }
+}
+```
+Вывод:
+```java
+Test string
+
+Process finished with exit code 0
+```
