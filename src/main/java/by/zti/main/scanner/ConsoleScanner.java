@@ -44,7 +44,7 @@ public class ConsoleScanner {
 
     public void start(){
         if(thread==null){return;}
-        thread.run();
+        thread.start();
     }
 
     public void scan() {
