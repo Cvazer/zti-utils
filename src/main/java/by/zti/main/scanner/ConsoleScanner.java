@@ -1,5 +1,7 @@
 package by.zti.main.scanner;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.*;
 
 public class ConsoleScanner {
@@ -48,7 +50,9 @@ public class ConsoleScanner {
     }
 
     public void scan() {
-        String in = input.nextLine();
+        scanLine(input.nextLine());
+    }
+    private void scanLine(String in){
         boolean consumed = false;
 
         Scanner scn = new Scanner(in);
@@ -60,6 +64,18 @@ public class ConsoleScanner {
 
         if (consumed) { return; }
         System.out.println(error);
+    }
+
+    public void scan(File file){
+        try {
+            Scanner scn = new Scanner(file);
+            while (scn.hasNextLine()){
+                scanLine(scn.nextLine());
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
     }
 
     private boolean consume(String cmd_name, Scanner scn) {
@@ -81,7 +97,7 @@ public class ConsoleScanner {
                 key = token.replace(paramPrefix, "");
                 params.put(key, new ArrayList<>());
             } else {
-                if (key== defaultKey &&params.get(defaultKey)==null){params.put(defaultKey, new ArrayList<>());}
+                if (key.contentEquals(defaultKey) &&params.get(defaultKey)==null){params.put(defaultKey, new ArrayList<>());}
                 params.get(key).add(token);
             }
         }
