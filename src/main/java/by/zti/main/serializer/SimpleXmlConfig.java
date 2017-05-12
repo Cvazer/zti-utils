@@ -21,6 +21,9 @@ import java.io.IOException;
  * This class is a simple implementation of native Java XML DOM functionality. This class should be used only to store
  * simple key-value String parameters in specified file. Invoke {@link #put(String, String)} method to save your
  * config parameter to file, and invoke {@link #get(String)} method to get parameter value from instance object.
+ *
+ * @author Yan Frankovski
+ * @since ZTIU 1.0.4
  */
 public class SimpleXmlConfig {
     /** Internal reference to cfg {@link java.io.File} instance. **/
