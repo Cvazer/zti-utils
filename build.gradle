@@ -1,9 +1,10 @@
-group 'zti.utils.main'
-version '1.0.5'
+group 'by.zti'
+version '1.0.5.1'
 
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'application'
+apply plugin: 'maven'
 
 sourceCompatibility = 1.8
 
@@ -11,6 +12,7 @@ mainClassName = "by.zti.main.Main"
 
 repositories {
     mavenCentral()
+    mavenLocal()
 }
 
 dependencies {

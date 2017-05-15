@@ -20,6 +20,8 @@ public class SimpleLogger implements ZTILogger{
     private String logFileName = "log.txt";
     /** Instance of file to represent your logfile **/
     private File log;
+    /** Boolean flag for console printing **/
+    private boolean printing;
 
     /**
      * Use this constructor to create default log file in directory logs/ called log.txt
@@ -84,6 +86,7 @@ public class SimpleLogger implements ZTILogger{
             bw = new BufferedWriter(fw);
             out = new PrintWriter(bw);
             out.println(text);
+            if(printing){System.out.println(text);}
             out.close();
         } catch (IOException e) {
            e.printStackTrace();
@@ -139,5 +142,13 @@ public class SimpleLogger implements ZTILogger{
 
     public void setLog(File log) {
         this.log = log;
+    }
+
+    public boolean isPrinting() {
+        return printing;
+    }
+
+    public void setPrinting(boolean printing) {
+        this.printing = printing;
     }
 }
