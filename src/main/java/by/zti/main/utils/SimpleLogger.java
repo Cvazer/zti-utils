@@ -31,6 +31,16 @@ public class SimpleLogger implements ZTILogger{
     }
 
     /**
+     * Use this constructor to create default log file in directory logs/ called log.txt
+     *
+     * @param printing console synchronous log printing flag.
+     */
+    public SimpleLogger(boolean printing) {
+        this();
+        this.printing = printing;
+    }
+
+    /**
      * Use this constructor to create logger bound to specific file.
      * @param log File to witch logging would be performed.
      */
@@ -40,12 +50,32 @@ public class SimpleLogger implements ZTILogger{
     }
 
     /**
+     * Use this constructor to create logger bound to specific file.
+     * @param log File to witch logging would be performed.
+     * @param printing console synchronous log printing flag.
+     */
+    public SimpleLogger(File log, boolean printing) {
+        this(log);
+        this.printing = printing;
+    }
+
+    /**
      * Use this constructor to create logger bound to specific file at given file name.
      * @param logFileName Name of a file to witch logging would be performed.
      */
     public SimpleLogger(String logFileName) {
         log = new File(logFileName);
         check(log);
+    }
+
+    /**
+     * Use this constructor to create logger bound to specific file at given file name and set printing value.
+     * @param logFileName Name of a file to witch logging would be performed.
+     * @param printing console synchronous log printing flag.
+     */
+    public SimpleLogger(String logFileName, boolean printing) {
+        this(logFileName);
+        this.printing = printing;
     }
 
     /**
@@ -78,6 +108,16 @@ public class SimpleLogger implements ZTILogger{
     @Override
     public void log(LogLevel level, String message) {
         String text = "["+SDF.format(new Date())+"]"+" "+"["+level+"]"+" "+message;
+        this.log(text);
+    }
+
+    /**
+     * Invoke this method on logger instance to perform logging to a log file without decorations.
+     *
+     * @param message Text of actual message.
+     */
+    @Override
+    public void log(String message) {
         FileWriter fw = null;
         BufferedWriter bw = null;
         PrintWriter out = null;
@@ -85,11 +125,11 @@ public class SimpleLogger implements ZTILogger{
             fw = new FileWriter(log, true);
             bw = new BufferedWriter(fw);
             out = new PrintWriter(bw);
-            out.println(text);
-            if(printing){System.out.println(text);}
+            out.println(message);
+            if(printing){System.out.println(message);}
             out.close();
         } catch (IOException e) {
-           e.printStackTrace();
+            e.printStackTrace();
         }
         finally {
             if(out != null)

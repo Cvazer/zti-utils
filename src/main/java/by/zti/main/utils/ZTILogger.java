@@ -10,4 +10,5 @@ package by.zti.main.utils;
  */
 public interface ZTILogger {
     void log(LogLevel level, String message);
+    void log(String message);
 }
