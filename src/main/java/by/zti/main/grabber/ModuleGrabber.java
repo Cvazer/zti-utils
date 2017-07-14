@@ -3,7 +3,6 @@ package by.zti.main.grabber;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
@@ -15,8 +14,8 @@ import java.util.jar.JarFile;
 
 /**
  * This singleton is designed to look for jar files is specific directory and load them dynamically at runtime. It uses
- * marker interface "Hookable" to find appropriate start class in jar file to initialize module. You can create marker interface
- * by yourself but make sure that it's name is right and it have public void method called "hook" and that it have no parameters.
+ * marker annotation "Hookable" with it's "value" field containing init method name to find appropriate start class in jar
+ * file to initialize module.
  *
  * @author Yan Frankovski
  * @since ZTIU 1.0.6
@@ -57,28 +56,19 @@ public class ModuleGrabber {
     /**
      * Invoke this method after grabbing to initialize given init points in modules (if any)
      */
-    public void initModules(){
-        classes.forEach(clazz -> {
-            for (Class iface: clazz.getInterfaces()){
-                if (iface.getSimpleName().contentEquals("Hookable")){
-                    Method hook = null;
-                    for(Method method: clazz.getMethods()){
-                        if (method.getName().contentEquals("hook")){
-                            hook = method;
-                        }
+    public void initModules() {
+        for (Class clazz: classes){
+            Hookable hookable = (Hookable) clazz.getAnnotation(Hookable.class);
+            new Thread(() -> {
+                if(hookable!=null){
+                    try {
+                        clazz.getMethod(hookable.value()).invoke(clazz.getConstructor().newInstance());
+                    } catch (IllegalAccessException | InvocationTargetException | InstantiationException | NoSuchMethodException e) {
+                        e.printStackTrace();
                     }
-                    Method finalHook = hook;
-                    new Thread(() -> {
-                        try {
-                            if(finalHook==null){return;}
-                            finalHook.invoke(clazz.getConstructor().newInstance());
-                        } catch (IllegalAccessException | InvocationTargetException | NoSuchMethodException | InstantiationException e) {
-                            e.printStackTrace();
-                        }
-                    }).start();
                 }
-            }
-        });
+            }).start();
+        }
     }
 
     private void loadClasses() {
@@ -107,9 +97,7 @@ public class ModuleGrabber {
                 while (enumeration.hasMoreElements()){
                     JarEntry entry = enumeration.nextElement();
                     if (entry.isDirectory() || !entry.getName().endsWith(".class")){continue;}
-                    String className = entry.getName().substring(0, entry.getName().length()-6);
-                    className = className.replace('/', '.');
-                    classNames.add(className);
+                    classNames.add(entry.getName().substring(0, entry.getName().length()-6).replace('/', '.'));
                 }
             } catch (IOException e) {
                 e.printStackTrace();
