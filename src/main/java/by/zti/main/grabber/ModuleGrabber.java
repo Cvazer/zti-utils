@@ -15,7 +15,7 @@ import java.util.jar.JarFile;
 /**
  * This singleton is designed to look for jar files is specific directory and load them dynamically at runtime. It uses
  * marker annotation "Hookable" with it's "value" field containing init method name to find appropriate start class in jar
- * file to initialize module.
+ * file to initialize module. Init method must be public and must have no parameter.
  *
  * @author Yan Frankovski
  * @since ZTIU 1.0.6

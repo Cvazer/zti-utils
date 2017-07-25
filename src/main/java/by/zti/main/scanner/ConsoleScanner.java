@@ -286,6 +286,14 @@ public class ConsoleScanner {
     }
 
     /**
+     * Setter for commands list.
+     * @param commands - ArrayList of Commands
+     */
+    public void setCommands(List<Command> commands) {
+        this.commands = commands;
+    }
+
+    /**
      * @return Whether of not the scanner is running right now (asynchronous mode)
      */
     public boolean isRunning() {
