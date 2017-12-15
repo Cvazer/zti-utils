@@ -17,6 +17,19 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+        <option name="gradleHome" value="C:/Gradle/gradle-4.4" />
+        <option name="gradleJvm" value="9.0" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/zti-utils-misc" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/zti-utils-scanner" />
         <option name="gradleHome" value="C:/Gradle/gradle-4.4" />
         <option name="gradleJvm" value="9.0" />
@@ -52,6 +65,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/zti-utils-legacy/zti-utils-legacy.iml" filepath="$PROJECT_DIR$/zti-utils-legacy/zti-utils-legacy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zti-utils-misc/zti-utils-misc.iml" filepath="$PROJECT_DIR$/zti-utils-misc/zti-utils-misc.iml" />
       <module fileurl="file://$PROJECT_DIR$/zti-utils-scanner/zti-utils-scanner.iml" filepath="$PROJECT_DIR$/zti-utils-scanner/zti-utils-scanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/zti-utils-serializer/zti-utils-serializer.iml" filepath="$PROJECT_DIR$/zti-utils-serializer/zti-utils-serializer.iml" />
     </modules>

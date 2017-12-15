@@ -2,272 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7d5a24a-f354-4299-af71-bef69beb63e9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/allclasses-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/allclasses-noframe.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/by/zti/main/grabber/Hookable.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/by/zti/main/grabber/ModuleGrabber.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/by/zti/main/grabber/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/by/zti/main/grabber/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/by/zti/main/grabber/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/by/zti/main/serializer/SimpleXmlConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/by/zti/main/serializer/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/by/zti/main/serializer/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/by/zti/main/serializer/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/by/zti/main/utils/LogLevel.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/by/zti/main/utils/SimpleLogger.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/by/zti/main/utils/ZTILogger.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/by/zti/main/utils/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/by/zti/main/utils/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/by/zti/main/utils/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/constant-values.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/deprecated-list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/help-doc.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/index-all.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/javadoc.rar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/external/jquery/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/images/ui-icons_222222_256x240.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/images/ui-icons_2e83ff_256x240.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/images/ui-icons_454545_256x240.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/images/ui-icons_888888_256x240.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/images/ui-icons_cd0a0a_256x240.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/jquery-1.10.2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/jquery-ui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/jquery-ui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/jquery-ui.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/jquery-ui.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/jquery-ui.structure.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/jquery-ui.structure.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/jszip-utils/dist/jszip-utils.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/jszip-utils/dist/jszip-utils.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/jszip/dist/jszip.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/jquery/jszip/dist/jszip.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/member-search-index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/member-search-index.zip" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/overview-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/overview-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/overview-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/package-list" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/package-search-index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/package-search-index.zip" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/resources/glass.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/resources/x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/script.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/search.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/stylesheet.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/type-search-index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/javadoc/type-search-index.zip" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/release/changelog.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/release/zti-utils-legacy-1.1.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/settings.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/src/by/zti/main/grabber/Hookable.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/src/by/zti/main/grabber/ModuleGrabber.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/src/by/zti/main/serializer/SimpleXmlConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/src/by/zti/main/utils/LogLevel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/src/by/zti/main/utils/SimpleLogger.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/src/by/zti/main/utils/ZTILogger.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/src/module-info.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-legacy/zti-utils-legacy.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-scanner/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-scanner/release/changelog.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-scanner/release/zti-utils-scanner-1.1.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-scanner/settings.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-scanner/src/by/zti/scanner/Command.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-scanner/src/by/zti/scanner/ConsoleScanner.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-scanner/src/by/zti/scanner/Consumable.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-scanner/src/module-info.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-scanner/zti-utils-scanner.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/allclasses-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/allclasses-noframe.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/by/zti/serializer/Serializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/by/zti/serializer/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/by/zti/serializer/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/by/zti/serializer/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/constant-values.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/deprecated-list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/help-doc.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/index-all.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/javadoc.rar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/external/jquery/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/images/ui-icons_222222_256x240.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/images/ui-icons_2e83ff_256x240.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/images/ui-icons_454545_256x240.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/images/ui-icons_888888_256x240.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/images/ui-icons_cd0a0a_256x240.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/jquery-1.10.2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/jquery-ui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/jquery-ui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/jquery-ui.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/jquery-ui.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/jquery-ui.structure.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/jquery-ui.structure.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/jszip-utils/dist/jszip-utils.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/jszip-utils/dist/jszip-utils.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/jszip/dist/jszip.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/jquery/jszip/dist/jszip.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/member-search-index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/member-search-index.zip" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/module-search-index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/module-search-index.zip" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/overview-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/package-list" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/package-search-index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/package-search-index.zip" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/resources/glass.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/resources/x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/script.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/search.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/stylesheet.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/type-search-index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/type-search-index.zip" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/javadoc/zti.utils.serializer-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/release/changelog.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/release/zti-utils-serializer-1.1.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/settings.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/src/by/zti/serializer/Serializer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/src/module-info.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-serializer/zti-utils-serializer.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils.ipr" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/zti-utils.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gradlew" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/Main.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/grabber/Hookable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/grabber/ModuleGrabber.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/grabber/package-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/grabber/package-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/grabber/package-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/package-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/package-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/package-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/scanner/Command.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/scanner/ConsoleScanner.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/scanner/Consumable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/scanner/package-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/scanner/package-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/scanner/package-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/serializer/Serializer.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/serializer/SimpleXmlConfig.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/serializer/package-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/serializer/package-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/serializer/package-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/utils/LogLevel.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/utils/SimpleLogger.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/utils/ZTILogger.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/utils/package-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/utils/package-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/main/utils/package-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/constant-values.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-all.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/javadoc.rar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/external/jquery/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-icons_454545_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-icons_888888_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jquery-1.10.2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jquery-ui.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jquery-ui.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jquery-ui.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jquery-ui.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jquery-ui.structure.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jquery-ui.structure.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jszip-utils/dist/jszip-utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jszip-utils/dist/jszip-utils.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jszip/dist/jszip.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jszip/dist/jszip.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/member-search-index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/member-search-index.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/module-search-index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/module-search-index.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/overview-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/overview-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/package-list" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/package-search-index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/package-search-index.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resources/glass.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resources/x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/script.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/search.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/stylesheet.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/type-search-index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/type-search-index.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/zti.utils-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/log/config.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/release/changelog" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/release/zti-utils-1.0.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/release/zti-utils-1.0.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/release/zti-utils-1.0.3.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/release/zti-utils-1.0.4.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/release/zti-utils-1.0.5.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/release/zti-utils-1.0.5.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/release/zti-utils-1.0.5.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/release/zti-utils-1.0.6.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/release/zti-utils-1.0.6.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/release/zti-utils-1.0.7.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/zti/main/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/zti/main/grabber/Hookable.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/zti/main/grabber/ModuleGrabber.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/zti/main/scanner/Command.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/zti/main/scanner/ConsoleScanner.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/zti/main/scanner/Consumable.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/zti/main/serializer/Serializer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/zti/main/serializer/SimpleXmlConfig.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/zti/main/utils/LogLevel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/zti/main/utils/SimpleLogger.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/zti/main/utils/ZTILogger.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-misc/build.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-misc/settings.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-misc/src/by/zti/misc/HttpDataHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-misc/src/by/zti/misc/MSConnector.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-misc/src/module-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-misc/zti-utils-misc.iml" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-legacy/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/zti-utils-legacy/.gradle/4.4/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-legacy/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/zti-utils-legacy/.gradle/4.4/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-legacy/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/zti-utils-legacy/.gradle/4.4/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-legacy/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/zti-utils-legacy/.gradle/4.4/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-legacy/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/zti-utils-legacy/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-legacy/build/libs/zti-utils-legacy-1.1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-legacy/release/zti-utils-legacy-1.1.0.jar" afterPath="$PROJECT_DIR$/zti-utils-legacy/release/zti-utils-legacy-1.1.0.jar" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-legacy/src/module-info.java" afterPath="$PROJECT_DIR$/zti-utils-legacy/src/module-info.java" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-scanner/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/zti-utils-scanner/.gradle/4.4/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-scanner/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/zti-utils-scanner/.gradle/4.4/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-scanner/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/zti-utils-scanner/.gradle/4.4/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-scanner/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/zti-utils-scanner/.gradle/4.4/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-scanner/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/zti-utils-scanner/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-scanner/build/classes/java/main/module-info.class" afterPath="$PROJECT_DIR$/zti-utils-scanner/build/classes/java/main/module-info.class" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-scanner/build/libs/zti-utils-scanner-1.1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-scanner/release/zti-utils-scanner-1.1.0.jar" afterPath="$PROJECT_DIR$/zti-utils-scanner/release/zti-utils-scanner-1.1.0.jar" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-scanner/src/module-info.java" afterPath="$PROJECT_DIR$/zti-utils-scanner/src/module-info.java" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-serializer/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/zti-utils-serializer/.gradle/4.4/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-serializer/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/zti-utils-serializer/.gradle/4.4/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-serializer/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/zti-utils-serializer/.gradle/4.4/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-serializer/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/zti-utils-serializer/.gradle/4.4/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-serializer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/zti-utils-serializer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-serializer/build/classes/java/main/module-info.class" afterPath="$PROJECT_DIR$/zti-utils-serializer/build/classes/java/main/module-info.class" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-serializer/build/libs/zti-utils-serializer-1.1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-serializer/release/zti-utils-serializer-1.1.0.jar" afterPath="$PROJECT_DIR$/zti-utils-serializer/release/zti-utils-serializer-1.1.0.jar" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-serializer/src/module-info.java" afterPath="$PROJECT_DIR$/zti-utils-serializer/src/module-info.java" />
+      <change beforePath="$PROJECT_DIR$/zti-utils.ipr" afterPath="$PROJECT_DIR$/zti-utils.ipr" />
+      <change beforePath="$PROJECT_DIR$/zti-utils.iws" afterPath="$PROJECT_DIR$/zti-utils.iws" />
     </list>
     <ignored path="$PROJECT_DIR$/zti-utils-legacy/.gradle/" />
     <ignored path="$PROJECT_DIR$/zti-utils-legacy/build/" />
@@ -278,6 +46,9 @@
     <ignored path="$PROJECT_DIR$/zti-utils-serializer/.gradle/" />
     <ignored path="$PROJECT_DIR$/zti-utils-serializer/build/" />
     <ignored path="$PROJECT_DIR$/zti-utils-serializer/out/" />
+    <ignored path="$PROJECT_DIR$/zti-utils-misc/.gradle/" />
+    <ignored path="$PROJECT_DIR$/zti-utils-misc/build/" />
+    <ignored path="$PROJECT_DIR$/zti-utils-misc/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -287,6 +58,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/zti-utils-legacy">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/zti-utils-misc">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/zti-utils-scanner">
@@ -313,30 +87,18 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="zti-utils-serializer" type="f1a62948:ProjectNode" />
+                <item name="zti-utils-legacy" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="zti-utils-serializer" type="f1a62948:ProjectNode" />
+                <item name="zti-utils-legacy" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="zti-utils-serializer" type="f1a62948:ProjectNode" />
+                <item name="zti-utils-legacy" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="zti-utils-serializer" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="documentation" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="zti-utils-serializer" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -346,12 +108,37 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SimpleXmlConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zti-utils-legacy/src/by/zti/main/serializer/SimpleXmlConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module-info.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zti-utils-legacy/src/module-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -362,6 +149,7 @@
     <option name="myGradleHomes">
       <map>
         <entry key="$PROJECT_DIR$/zti-utils-legacy" value="C:\Gradle\gradle-4.4" />
+        <entry key="$PROJECT_DIR$/zti-utils-misc" value="C:\Gradle\gradle-4.4" />
         <entry key="$PROJECT_DIR$/zti-utils-scanner" value="C:\Gradle\gradle-4.4" />
         <entry key="$PROJECT_DIR$/zti-utils-serializer" value="C:\Gradle\gradle-4.4" />
       </map>
@@ -369,6 +157,7 @@
     <option name="myGradleVersions">
       <map>
         <entry key="$PROJECT_DIR$/zti-utils-legacy" value="4.4" />
+        <entry key="$PROJECT_DIR$/zti-utils-misc" value="4.4" />
         <entry key="$PROJECT_DIR$/zti-utils-scanner" value="4.4" />
         <entry key="$PROJECT_DIR$/zti-utils-serializer" value="4.4" />
       </map>
@@ -387,6 +176,22 @@
               <ExternalProjectPojo>
                 <option name="name" value="zti-utils-legacy" />
                 <option name="path" value="$PROJECT_DIR$/zti-utils-legacy" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="zti-utils-misc" />
+              <option name="path" value="$PROJECT_DIR$/zti-utils-misc" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="zti-utils-misc" />
+                <option name="path" value="$PROJECT_DIR$/zti-utils-misc" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -568,6 +373,152 @@
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'zti-utils-legacy'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-legacy" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zti-utils-misc">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'zti-utils-misc'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'zti-utils-misc'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'zti-utils-misc'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'zti-utils-misc'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'zti-utils-misc'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'zti-utils-misc'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'zti-utils-misc'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'zti-utils-misc'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="install" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'zti-utils-misc'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zti-utils-misc" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
@@ -872,6 +823,9 @@
         <entry key="$PROJECT_DIR$/zti-utils-legacy" value="3026604699745" />
         <entry key="$PROJECT_DIR$/zti-utils-legacy/build.gradle" value="2582778820" />
         <entry key="$PROJECT_DIR$/zti-utils-legacy/settings.gradle" value="1279340636" />
+        <entry key="$PROJECT_DIR$/zti-utils-misc" value="3026606777444" />
+        <entry key="$PROJECT_DIR$/zti-utils-misc/build.gradle" value="2582778820" />
+        <entry key="$PROJECT_DIR$/zti-utils-misc/settings.gradle" value="1749516417" />
         <entry key="$PROJECT_DIR$/zti-utils-scanner" value="3026605315623" />
         <entry key="$PROJECT_DIR$/zti-utils-scanner/build.gradle" value="2582778820" />
         <entry key="$PROJECT_DIR$/zti-utils-scanner/settings.gradle" value="2806075296" />
@@ -975,6 +929,104 @@
                   <option value="C:/Gradle/gradle-4.4/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/zti-utils-legacy/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/zti-utils-legacy/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zti-utils-misc">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/zti-utils-misc">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/zti-utils-misc" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="zti-utils-misc" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="C:/Gradle/gradle-4.4/lib/ant-1.9.9.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/ant-launcher-1.9.9.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-base-services-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-base-services-groovy-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-build-cache-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-build-option-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-cli-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-core-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-core-api-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-docs-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-installation-beacon-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-jvm-services-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-kotlin-dsl-0.13.1.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-kotlin-dsl-tooling-builders-0.13.1.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-kotlin-dsl-tooling-models-0.13.1.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-launcher-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-logging-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-messaging-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-model-core-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-model-groovy-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-native-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-persistent-cache-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-process-services-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-resources-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-runtime-api-info-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-tooling-api-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/gradle-wrapper-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/groovy-all-2.4.12.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-announce-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-antlr-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-build-cache-http-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-build-comparison-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-build-init-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-code-quality-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-composite-builds-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-dependency-management-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-diagnostics-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-ear-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-ide-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-ide-native-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-ide-play-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-ivy-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-jacoco-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-javascript-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-language-groovy-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-language-java-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-language-jvm-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-language-native-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-language-scala-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-maven-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-osgi-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-platform-base-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-platform-jvm-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-platform-native-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-platform-play-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-plugin-development-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-plugin-use-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-plugins-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-publish-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-reporting-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-resources-gcs-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-resources-http-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-resources-s3-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-resources-sftp-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-scala-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-signing-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-test-kit-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-testing-base-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-testing-jvm-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-testing-native-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-tooling-api-builders-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-version-control-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/gradle-workers-4.4.jar" />
+                  <option value="C:/Gradle/gradle-4.4/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/zti-utils-misc/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/zti-utils-misc/buildSrc/src/main/groovy" />
                 </list>
               </option>
             </ExternalProjectBuildClasspathPojo>
@@ -1184,6 +1236,7 @@
     <option name="projectSyncType">
       <map>
         <entry key="$PROJECT_DIR$/zti-utils-legacy" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/zti-utils-misc" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/zti-utils-scanner" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/zti-utils-serializer" value="RE_IMPORT" />
       </map>
@@ -1194,10 +1247,15 @@
       <list>
         <option value="$PROJECT_DIR$/zti-utils-legacy/build.gradle" />
         <option value="$PROJECT_DIR$/zti-utils-scanner/build.gradle" />
-        <option value="$PROJECT_DIR$/zti-utils-scanner/src/module-info.java" />
-        <option value="$PROJECT_DIR$/zti-utils-legacy/src/module-info.java" />
         <option value="$PROJECT_DIR$/zti-utils-serializer/build.gradle" />
+        <option value="$PROJECT_DIR$/zti-utils-misc/build.gradle" />
+        <option value="$PROJECT_DIR$/zti-utils-misc/src/by/zti/misc/package-info.java" />
+        <option value="$PROJECT_DIR$/zti-utils-misc/src/by/zti/misc/HttpDataHandler.java" />
+        <option value="$PROJECT_DIR$/zti-utils-misc/src/by/zti/misc/MSConnector.java" />
+        <option value="$PROJECT_DIR$/zti-utils-misc/src/module-info.java" />
+        <option value="$PROJECT_DIR$/zti-utils-scanner/src/module-info.java" />
         <option value="$PROJECT_DIR$/zti-utils-serializer/src/module-info.java" />
+        <option value="$PROJECT_DIR$/zti-utils-legacy/src/module-info.java" />
       </list>
     </option>
   </component>
@@ -1208,9 +1266,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="1932" />
-    <option name="height" value="1056" />
+    <option name="x" value="-21" />
+    <option name="y" value="-4" />
+    <option name="width" value="1299" />
+    <option name="height" value="697" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -1229,37 +1288,24 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="zti-utils-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zti-utils-serializer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="zti-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zti-utils-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="zti-utils-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zti-utils-serializer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zti-utils-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zti-utils-serializer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zti-utils-legacy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zti-utils-serializer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="javadoc" type="462c0819:PsiDirectoryNode" />
+              <item name="zti-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zti-utils-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1272,8 +1318,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Programming\Git\zti-utils\zti-utils-serializer\release" />
+      <recent name="D:\Programming\Git\zti-utils\zti-utils-legacy\release" />
       <recent name="D:\Programming\Git\zti-utils\zti-utils-scanner\release" />
+      <recent name="D:\Programming\Git\zti-utils\zti-utils-serializer\release" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1288,7 +1335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.zti-utils-serializer [install]">
+  <component name="RunManager" selected="Gradle.zti-utils-legacy [build]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1310,7 +1357,25 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="zti-utils-scanner [install]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="zti-utils-legacy [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/zti-utils-legacy" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration name="zti-utils-scanner [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/zti-utils-scanner" />
@@ -1321,7 +1386,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="install" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -1376,24 +1441,6 @@
         <option name="taskNames">
           <list>
             <option value="install" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-    </configuration>
-    <configuration name="zti-utils-serializer [javadoc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/zti-utils-serializer" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="javadoc" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -1458,19 +1505,19 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Gradle.zti-utils-scanner [install]" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [javadoc]" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [build]" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [compileTestJava]" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [install]" />
+      <item index="0" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [build]" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [compileTestJava]" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [install]" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.zti-utils-scanner [build]" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.zti-utils-legacy [build]" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [install]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [compileTestJava]" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [build]" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [javadoc]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.zti-utils-scanner [install]" />
+        <item index="0" class="java.lang.String" itemvalue="Gradle.zti-utils-legacy [build]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.zti-utils-scanner [build]" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [install]" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [compileTestJava]" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -1487,38 +1534,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513302184370</updated>
-      <workItem from="1513302186105" duration="1015000" />
+      <workItem from="1513302186105" duration="3416000" />
+      <workItem from="1513306115978" duration="286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1015000" />
+    <option name="totallyTimeSpent" value="3702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18443497" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18443497" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1532,11 +1580,42 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/zti-utils-misc/src/by/zti/misc/MSConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zti-utils-misc/src/by/zti/misc/HttpDataHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zti-utils.iws">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1544,7 +1623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1552,7 +1630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="17" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1564,35 +1641,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zti-utils-scanner/src/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zti-utils-legacy/src/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zti-utils-scanner/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zti-utils-serializer/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1600,14 +1652,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zti-utils-scanner/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zti-utils-misc/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zti-utils-misc/src/by/zti/misc/package-info.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/jdk.httpserver/com/sun/net/httpserver/HttpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="89" column="22" lean-forward="false" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zti-utils-serializer/src/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zti-utils-scanner/src/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zti-utils-misc/src/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zti-utils-misc/src/by/zti/misc/HttpDataHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zti-utils-misc/src/by/zti/misc/MSConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zti-utils-legacy/src/by/zti/main/serializer/SimpleXmlConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zti-utils-legacy/src/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding />
         </state>
       </provider>
