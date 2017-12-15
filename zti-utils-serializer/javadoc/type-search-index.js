@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"by.zti.serializer","l":"Serializer"}]

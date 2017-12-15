@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/zti-utils-legacy" />
+        <option name="gradleHome" value="C:/Gradle/gradle-4.4" />
+        <option name="gradleJvm" value="9.0" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/zti-utils-legacy" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/zti-utils-scanner" />
+        <option name="gradleHome" value="C:/Gradle/gradle-4.4" />
+        <option name="gradleJvm" value="9.0" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/zti-utils-scanner" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/zti-utils-serializer" />
+        <option name="gradleHome" value="C:/Gradle/gradle-4.4" />
+        <option name="gradleJvm" value="9.0" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/zti-utils-serializer" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/zti-utils-legacy/zti-utils-legacy.iml" filepath="$PROJECT_DIR$/zti-utils-legacy/zti-utils-legacy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zti-utils-scanner/zti-utils-scanner.iml" filepath="$PROJECT_DIR$/zti-utils-scanner/zti-utils-scanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zti-utils-serializer/zti-utils-serializer.iml" filepath="$PROJECT_DIR$/zti-utils-serializer/zti-utils-serializer.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="9.0" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

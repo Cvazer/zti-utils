@@ -1,0 +1,7 @@
+-classpath 'D:\\Programming\\Git\\zti-utils\\zti-utils-serializer\\build\\classes\\java\\main;D:\\Programming\\Git\\zti-utils\\zti-utils-serializer\\build\\resources\\main'
+-d 'D:\\Programming\\Git\\zti-utils\\zti-utils-serializer\\build\\docs\\javadoc'
+-doctitle 'zti-utils-serializer 1.1.0 API'
+-quiet 
+-windowtitle 'zti-utils-serializer 1.1.0 API'
+'D:\\Programming\\Git\\zti-utils\\zti-utils-serializer\\src\\by\\zti\\serializer\\Serializer.java'
+'D:\\Programming\\Git\\zti-utils\\zti-utils-serializer\\src\\module-info.java'

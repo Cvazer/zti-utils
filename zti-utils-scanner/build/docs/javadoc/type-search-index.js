@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"by.zti.scanner","l":"Command"},{"p":"by.zti.scanner","l":"ConsoleScanner"},{"p":"by.zti.scanner","l":"Consumable"}]

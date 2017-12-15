@@ -1,0 +1,9 @@
+-classpath 'D:\\Programming\\Git\\zti-utils\\zti-utils-scanner\\build\\classes\\java\\main;D:\\Programming\\Git\\zti-utils\\zti-utils-scanner\\build\\resources\\main'
+-d 'D:\\Programming\\Git\\zti-utils\\zti-utils-scanner\\build\\docs\\javadoc'
+-doctitle 'zti-utils-scanner 1.1.0 API'
+-quiet 
+-windowtitle 'zti-utils-scanner 1.1.0 API'
+'D:\\Programming\\Git\\zti-utils\\zti-utils-scanner\\src\\by\\zti\\scanner\\Command.java'
+'D:\\Programming\\Git\\zti-utils\\zti-utils-scanner\\src\\by\\zti\\scanner\\ConsoleScanner.java'
+'D:\\Programming\\Git\\zti-utils\\zti-utils-scanner\\src\\by\\zti\\scanner\\Consumable.java'
+'D:\\Programming\\Git\\zti-utils\\zti-utils-scanner\\src\\module-info.java'
