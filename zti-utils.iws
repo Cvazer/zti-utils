@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7d5a24a-f354-4299-af71-bef69beb63e9" name="Default" comment="incubator release">
+    <list default="true" id="e7d5a24a-f354-4299-af71-bef69beb63e9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/zti-utils-incubator/out/production/classes/by/zti/incubator/Main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-incubator/out/production/classes/by/zti/incubator/configurator/Configurator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-incubator/out/production/classes/by/zti/incubator/configurator/XMLConfigurator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-incubator/out/production/classes/by/zti/incubator/http/HTTPConsumable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-incubator/out/production/classes/by/zti/incubator/http/HTTPMessenger.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zti-utils-incubator/out/production/classes/module-info.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/zti-utils.iws" afterPath="$PROJECT_DIR$/zti-utils.iws" />
     </list>
     <ignored path="$PROJECT_DIR$/zti-utils-legacy/.gradle/" />
@@ -63,24 +69,18 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="zti-utils-incubator" type="f1a62948:ProjectNode" />
+                <item name="zti-utils-serializer" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="zti-utils-incubator" type="f1a62948:ProjectNode" />
+                <item name="zti-utils-serializer" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="zti-utils-incubator" type="f1a62948:ProjectNode" />
+                <item name="zti-utils-serializer" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="zti-utils-incubator" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="documentation" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -1350,7 +1350,7 @@
           <expand>
             <path>
               <item name="zti-utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zti-utils-legacy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="zti-utils-serializer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1393,7 +1393,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.zti-utils-incubator [build]">
+  <component name="RunManager" selected="Gradle.zti-utils-serializer [clean]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1433,7 +1433,7 @@
       </ExternalSystemSettings>
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
-    <configuration name="zti-utils-incubator [install]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="zti-utils-incubator [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/zti-utils-incubator" />
@@ -1444,32 +1444,14 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="install" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
-    <configuration name="zti-utils-incubator [javadoc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/zti-utils-incubator" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="javadoc" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-    </configuration>
-    <configuration name="zti-utils-legacy [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="zti-utils-legacy [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/zti-utils-legacy" />
@@ -1480,14 +1462,14 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
-    <configuration name="zti-utils-scanner [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="zti-utils-scanner [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/zti-utils-scanner" />
@@ -1498,7 +1480,25 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration name="zti-utils-serializer [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/zti-utils-serializer" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -1575,19 +1575,19 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Gradle.zti-utils-scanner [build]" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.zti-utils-legacy [build]" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.zti-utils-incubator [install]" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.zti-utils-incubator [javadoc]" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.zti-utils-incubator [build]" />
+      <item index="0" class="java.lang.String" itemvalue="Gradle.zti-utils-incubator [build]" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.zti-utils-incubator [clean]" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.zti-utils-legacy [clean]" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.zti-utils-scanner [clean]" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [clean]" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.zti-utils-incubator [build]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.zti-utils-incubator [javadoc]" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.zti-utils-incubator [install]" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.zti-utils-legacy [build]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.zti-utils-scanner [build]" />
+        <item index="0" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [clean]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.zti-utils-scanner [clean]" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.zti-utils-legacy [clean]" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.zti-utils-incubator [clean]" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.zti-utils-incubator [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -1612,7 +1612,7 @@
       <workItem from="1514076376309" duration="3708000" />
       <workItem from="1514080880595" duration="1371000" />
       <workItem from="1514084116061" duration="2238000" />
-      <workItem from="1514086367682" duration="45000" />
+      <workItem from="1514086367682" duration="155000" />
     </task>
     <task id="LOCAL-00001" summary="incubator release">
       <created>1514086241032</created>
@@ -1621,11 +1621,25 @@
       <option name="project" value="LOCAL" />
       <updated>1514086241032</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="incubator release cleanup">
+      <created>1514086427828</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1514086427828</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cleanup2">
+      <created>1514086479700</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1514086479700</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27735000" />
+    <option name="totallyTimeSpent" value="27845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1634,7 +1648,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1663,7 +1677,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="incubator release" />
-    <option name="LAST_COMMIT_MESSAGE" value="incubator release" />
+    <MESSAGE value="incubator release cleanup" />
+    <MESSAGE value="cleanup2" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
