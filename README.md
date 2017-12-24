@@ -141,3 +141,31 @@ Test string
 
 Process finished with exit code 0
 ```
+# How to get | Где достать #
+
+В Maven Central разумеется :D
+
+<dependency>
+    <groupId>com.github.cvazer</groupId>
+    <artifactId>zti-utils-scanner</artifactId>
+    <version>1.1.0</version>
+</dependency>
+
+<dependency>
+    <dependency>
+    <groupId>com.github.cvazer</groupId>
+    <artifactId>zti-utils-serializer</artifactId>
+    <version>1.1.0</version>
+</dependency>
+
+<dependency>
+    <groupId>com.github.cvazer</groupId>
+    <artifactId>zti-utils-incubator</artifactId>
+    <version>1.1.0</version>
+</dependency>
+
+<dependency>
+    <groupId>com.github.cvazer</groupId>
+    <artifactId>zti-utils-legacy</artifactId>
+    <version>1.1.0</version>
+</dependency>
