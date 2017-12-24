@@ -1,88 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7d5a24a-f354-4299-af71-bef69beb63e9" name="Default" comment="incubator release">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/zti-utils-incubator.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/allclasses-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/allclasses-noframe.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/by.zti.incubator-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/by/zti/incubator/configurator/Configurator.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/by/zti/incubator/configurator/XMLConfigurator.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/by/zti/incubator/configurator/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/by/zti/incubator/configurator/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/by/zti/incubator/configurator/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/by/zti/incubator/http/HTTPConsumable.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/by/zti/incubator/http/HTTPMessenger.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/by/zti/incubator/http/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/by/zti/incubator/http/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/by/zti/incubator/http/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/constant-values.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/deprecated-list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/help-doc.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/index-all.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/javadoc.rar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/external/jquery/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/images/ui-icons_222222_256x240.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/images/ui-icons_2e83ff_256x240.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/images/ui-icons_454545_256x240.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/images/ui-icons_888888_256x240.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/images/ui-icons_cd0a0a_256x240.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/jquery-1.10.2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/jquery-ui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/jquery-ui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/jquery-ui.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/jquery-ui.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/jquery-ui.structure.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/jquery-ui.structure.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/jszip-utils/dist/jszip-utils.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/jszip-utils/dist/jszip-utils.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/jszip/dist/jszip.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/jquery/jszip/dist/jszip.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/member-search-index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/member-search-index.zip" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/module-search-index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/module-search-index.zip" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/overview-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/overview-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/overview-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/package-list" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/package-search-index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/package-search-index.zip" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/resources/glass.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/resources/x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/script.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/search.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/stylesheet.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/type-search-index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/javadoc/type-search-index.zip" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/release/changelog.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/release/zti-utils-incubator-1.1.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/settings.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/src/by/zti/incubator/configurator/Configurator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/src/by/zti/incubator/configurator/XMLConfigurator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/src/by/zti/incubator/http/HTTPConsumable.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/src/by/zti/incubator/http/HTTPMessenger.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-incubator/src/module-info.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zti-utils-misc/zti-utils-misc.iml" />
-      <change beforePath="$PROJECT_DIR$/zti-utils-legacy/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/zti-utils-legacy/.gradle/4.4/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/zti-utils-legacy/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/zti-utils-legacy/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/zti-utils-scanner/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/zti-utils-scanner/.gradle/4.4/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/zti-utils-scanner/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/zti-utils-scanner/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/zti-utils-serializer/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/zti-utils-serializer/.gradle/4.4/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/zti-utils-serializer/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/zti-utils-serializer/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/zti-utils.ipr" afterPath="$PROJECT_DIR$/zti-utils.ipr" />
+    <list default="true" id="e7d5a24a-f354-4299-af71-bef69beb63e9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/zti-utils-misc/zti-utils-misc.iml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/zti-utils.iws" afterPath="$PROJECT_DIR$/zti-utils.iws" />
     </list>
     <ignored path="$PROJECT_DIR$/zti-utils-legacy/.gradle/" />
@@ -1692,12 +1612,20 @@
       <workItem from="1514075515801" duration="524000" />
       <workItem from="1514076376309" duration="3708000" />
       <workItem from="1514080880595" duration="1371000" />
-      <workItem from="1514084116061" duration="2083000" />
+      <workItem from="1514084116061" duration="2201000" />
     </task>
+    <task id="LOCAL-00001" summary="incubator release">
+      <created>1514086241032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1514086241032</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27535000" />
+    <option name="totallyTimeSpent" value="27653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1732,6 +1660,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="incubator release" />
+    <option name="LAST_COMMIT_MESSAGE" value="incubator release" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
