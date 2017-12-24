@@ -145,6 +145,7 @@ Process finished with exit code 0
 
 В Maven Central разумеется :D
 
+```
 <dependency>
     <groupId>com.github.cvazer</groupId>
     <artifactId>zti-utils-scanner</artifactId>
@@ -169,3 +170,4 @@ Process finished with exit code 0
     <artifactId>zti-utils-legacy</artifactId>
     <version>1.1.0</version>
 </dependency>
+```
