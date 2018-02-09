@@ -1,4 +1,4 @@
-module by.zti.incubator {
+open module by.zti.incubator {
     requires jdk.httpserver;
     requires jdk.xml.dom;
     exports by.zti.incubator.configurator;

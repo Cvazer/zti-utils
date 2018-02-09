@@ -11,8 +11,9 @@ import java.util.Properties;
  */
 public interface Configurator {
     /**
-     * This method should be called on {@code Configurator} instance to read key-value pairs from given source
+     * This method should be called on {@code Configurator} instance to read key-value pairs from given source by id
+     * @param id - {@code String} ref that represents desired profile in xml file for this class
      * @return {@code Properties} map that contains fieldName-value pairs
      */
-    Properties read();
+    Properties read(String id);
 }

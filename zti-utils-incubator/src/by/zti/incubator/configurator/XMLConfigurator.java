@@ -46,26 +46,26 @@ public class XMLConfigurator implements Configurator {
     }
 
     /**
-     * This method should be called on {@code Configurator} instance to read key-value pairs from given source
+     * This method should be called on {@code Configurator} instance to read key-value pairs from given source by id
      * @return {@code Properties} map that contains fieldName-value pairs
      */
-    public Properties read() {
+    public Properties read(String id) {
         Properties params = new Properties();
         try {
             Document document = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(xml);
             asList(document.getElementsByTagName("configuration")).forEach(node -> {
                 if (!node.hasAttributes()){return;}
                 try {node.getAttributes().getNamedItem("class").getNodeValue();} catch (Exception e) {return;}
+                try {node.getAttributes().getNamedItem("id").getNodeValue();} catch (Exception e) {return;}
+                if (!node.getAttributes().getNamedItem("id").getNodeValue().contentEquals(id)){return;}
                 if (!node.getAttributes().getNamedItem("class").getNodeValue().contentEquals(clazz.getName())){return;}
                 if (!node.hasChildNodes()) {return;}
-                Arrays.asList(clazz.getDeclaredFields()).forEach(field -> {
-                    asList(node.getChildNodes()).forEach(fieldNode -> {
-                        if (!fieldNode.hasAttributes()){return;}
-                        try {fieldNode.getAttributes().getNamedItem("name").getNodeValue(); fieldNode.getAttributes().getNamedItem("value").getNodeValue();} catch (Exception e) {return;}
-                        if (!fieldNode.getAttributes().getNamedItem("name").getNodeValue().contentEquals(field.getName())) {return;}
-                        params.put(field.getName(), fieldNode.getAttributes().getNamedItem("value").getNodeValue());
-                    });
-                });
+                Arrays.asList(clazz.getDeclaredFields()).forEach(field -> asList(node.getChildNodes()).forEach(fieldNode -> {
+                    if (!fieldNode.hasAttributes()){return;}
+                    try {fieldNode.getAttributes().getNamedItem("name").getNodeValue(); fieldNode.getAttributes().getNamedItem("value").getNodeValue();} catch (Exception e) {return;}
+                    if (!fieldNode.getAttributes().getNamedItem("name").getNodeValue().contentEquals(field.getName())) {return;}
+                    params.put(field.getName(), fieldNode.getAttributes().getNamedItem("value").getNodeValue());
+                }));
             });
         } catch (SAXException | IOException | ParserConfigurationException e) {
             e.printStackTrace();

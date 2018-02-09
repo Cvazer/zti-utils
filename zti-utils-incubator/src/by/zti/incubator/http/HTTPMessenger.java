@@ -1,5 +1,7 @@
 package by.zti.incubator.http;
 
+import by.zti.incubator.rest.RESTException;
+import by.zti.incubator.rest.RESTMessenger;
 import com.sun.net.httpserver.HttpServer;
 
 import java.io.IOException;
@@ -14,7 +16,7 @@ import java.net.URLConnection;
  * @since ZTIU 1.1.0
  * @see by.zti.incubator.http.HTTPConsumable
  */
-public class HTTPMessenger {
+public class HTTPMessenger implements RESTMessenger{
     /** Reference to the {@code HttpServer} object **/
     private HttpServer server;
 
@@ -42,7 +44,7 @@ public class HTTPMessenger {
      * @param data - Byte array of data that will be send
      * @return Byte array of data containing server response
      */
-    public byte[] send (String url, byte[] data){
+    public byte[] send(String url, byte[] data){
         try {
             URLConnection connection = new URL(url).openConnection();
             connection.setDoOutput(true);
@@ -53,6 +55,20 @@ public class HTTPMessenger {
             e.printStackTrace();
             return null;
         }
+    }
+
+    /**
+     * RESTMessenger implementation method that sends some byte array data.
+     * @param data - {@code byte[]} data to send.
+     * @param args - {@code Object[]} implementation specific arguments.
+     * @return - {@code byte[]} response data.
+     * @throws RESTException - if {@code Object[]} arguments are invalid.
+     */
+    @Override
+    public byte[] send(byte[] data, Object[] args) throws RESTException {
+        try { String test = (String)args[0]; }
+        catch (Exception e) { throw new RESTException("First argument should be a String instance");}
+        return send(((String)args[0]), data);
     }
 
     /**
