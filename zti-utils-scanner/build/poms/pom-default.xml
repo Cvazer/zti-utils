@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.cvazer</groupId>
+  <artifactId>zti-utils-scanner</artifactId>
+  <version>1.1.0</version>
+  <name>zti-utils-scanner</name>
+  <description>A lib from zti-utils bundle that provides console scanning capabilities</description>
+  <url>https://github.com/Cvazer/zti-utils</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Cvazer</id>
+      <name>Yan Frankovski</name>
+      <email>zhirnitoni@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:svn:https://github.com/Cvazer/zti-utils</connection>
+    <developerConnection>scm:svn:https://github.com/Cvazer/zti-utils</developerConnection>
+    <url>https://github.com/Cvazer/zti-utils</url>
+  </scm>
+</project>

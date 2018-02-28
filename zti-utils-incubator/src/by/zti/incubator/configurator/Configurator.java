@@ -1,5 +1,6 @@
 package by.zti.incubator.configurator;
 
+import java.util.Map;
 import java.util.Properties;
 
 /**
@@ -9,7 +10,7 @@ import java.util.Properties;
  * @since ZTIU 1.1.0
  * @see by.zti.incubator.configurator.XMLConfigurator
  */
-public interface Configurator {
+public interface  Configurator <K, V> {
     /**
      * This method should be called on {@code Configurator} instance to read key-value pairs from given source by id
      * @param id - {@code String} ref that represents desired profile in xml file for this class

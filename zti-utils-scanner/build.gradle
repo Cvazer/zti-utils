@@ -1,10 +1,14 @@
-group 'by.zti'
+group 'com.github.cvazer'
 version '1.1.0'
 
 apply plugin: 'java'
 apply plugin: 'maven'
+apply plugin: 'signing'
 
 sourceCompatibility = 1.9
+group = "com.github.cvazer"
+archivesBaseName = "zti-utils-scanner"
+version = "1.1.0"
 
 repositories {
     mavenCentral()
@@ -13,6 +17,24 @@ repositories {
 
 dependencies {
 
+}
+
+task javadocJar(type: Jar) {
+    classifier = 'javadoc'
+    from javadoc
+}
+
+task sourcesJar(type: Jar) {
+    classifier = 'sources'
+    from sourceSets.main.allSource
+}
+
+artifacts {
+    archives javadocJar, sourcesJar
+}
+
+signing {
+    sign configurations.archives
 }
 
 sourceSets {
@@ -31,6 +53,50 @@ sourceSets {
         }
         resources {
             srcDirs = []
+        }
+    }
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
+
+            repository(url: "https://oss.sonatype.org/service/local/staging/deploy/maven2/") {
+                authentication(userName: ossrhUsername, password: ossrhPassword)
+            }
+
+            snapshotRepository(url: "https://oss.sonatype.org/content/repositories/snapshots/") {
+                authentication(userName: ossrhUsername, password: ossrhPassword)
+            }
+
+            pom.project {
+                name 'zti-utils-scanner'
+                packaging 'jar'
+                description 'A lib from zti-utils bundle that provides console scanning capabilities'
+                url 'https://github.com/Cvazer/zti-utils'
+
+                scm {
+                    connection 'scm:svn:https://github.com/Cvazer/zti-utils'
+                    developerConnection 'scm:svn:https://github.com/Cvazer/zti-utils'
+                    url 'https://github.com/Cvazer/zti-utils'
+                }
+
+                licenses {
+                    license {
+                        name 'The Apache License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+
+                developers {
+                    developer {
+                        id 'Cvazer'
+                        name 'Yan Frankovski'
+                        email 'zhirnitoni@gmail.com'
+                    }
+                }
+            }
         }
     }
 }

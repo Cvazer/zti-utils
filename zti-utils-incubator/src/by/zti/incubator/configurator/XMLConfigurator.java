@@ -62,10 +62,49 @@ public class XMLConfigurator implements Configurator {
                 if (!node.hasChildNodes()) {return;}
                 Arrays.asList(clazz.getDeclaredFields()).forEach(field -> asList(node.getChildNodes()).forEach(fieldNode -> {
                     if (!fieldNode.hasAttributes()){return;}
-                    try {fieldNode.getAttributes().getNamedItem("name").getNodeValue(); fieldNode.getAttributes().getNamedItem("value").getNodeValue();} catch (Exception e) {return;}
+                    try {fieldNode.getAttributes().getNamedItem("name").getNodeValue();} catch (Exception e) {return;}
+                    try {fieldNode.getAttributes().getNamedItem("value").getNodeValue();} catch (Exception e) {return;}
                     if (!fieldNode.getAttributes().getNamedItem("name").getNodeValue().contentEquals(field.getName())) {return;}
                     params.put(field.getName(), fieldNode.getAttributes().getNamedItem("value").getNodeValue());
                 }));
+            });
+        } catch (SAXException | IOException | ParserConfigurationException e) {
+            e.printStackTrace();
+        }
+        return params;
+    }
+
+    public Map readMap(String id) {
+        return read(id);
+    }
+
+    /**
+     * This method should be called on {@code Configurator} instance to read key-value pairs from given source by id
+     * @param id - config id
+     * @return {@code Properties} map that contains fieldName-value pairs
+     */
+
+    public Map<String, String> readFlat(String id){
+        return readFlat(id, xml.getPath());
+    }
+
+    public static Map<String, String> readFlat(String id, String xmlPath) {
+        Map<String, String> params = new HashMap<>();
+        try {
+            Document document = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(new File(xmlPath));
+            asList(document.getElementsByTagName("configuration")).forEach(node -> {
+                if (!node.hasAttributes()){return;}
+                if (!node.hasChildNodes()) {return;}
+                try {Objects.requireNonNull(node.getAttributes().getNamedItem("id").getNodeValue());} catch (Exception e) {return;}
+                if (!node.getAttributes().getNamedItem("id").getNodeValue().contentEquals(id)){return;}
+                asList(node.getChildNodes()).forEach(field -> {
+                    if(!field.hasAttributes()) {return;}
+                    if(field.hasChildNodes()) {return;}
+                    if(!field.getNodeName().contentEquals("field")){return;}
+                    try {Objects.requireNonNull(field.getAttributes().getNamedItem("name").getNodeValue());} catch (Exception e) {return;}
+                    try {Objects.requireNonNull(field.getAttributes().getNamedItem("value").getNodeValue());} catch (Exception e) {return;}
+                    params.put(field.getAttributes().getNamedItem("name").getNodeValue(), field.getAttributes().getNamedItem("value").getNodeValue());
+                });
             });
         } catch (SAXException | IOException | ParserConfigurationException e) {
             e.printStackTrace();

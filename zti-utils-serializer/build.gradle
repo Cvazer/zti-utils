@@ -1,10 +1,24 @@
-group 'by.zti'
-version '1.1.0'
+group 'com.github.cvazer'
+version '1.1.1'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.junit.platform:junit-platform-gradle-plugin:1.1.0'
+    }
+}
 
 apply plugin: 'java'
 apply plugin: 'maven'
+apply plugin: 'signing'
+apply plugin: 'org.junit.platform.gradle.plugin'
 
-sourceCompatibility = 1.9
+sourceCompatibility = 1.8
+group = "com.github.cvazer"
+archivesBaseName = "zti-utils-serializer"
+version = "1.1.1"
 
 repositories {
     mavenCentral()
@@ -12,25 +26,88 @@ repositories {
 }
 
 dependencies {
+    testCompile 'org.junit.jupiter:junit-jupiter-api:5.1.0'
+    testRuntime 'org.junit.jupiter:junit-jupiter-engine:5.1.0'
+}
 
+task javadocJar(type: Jar) {
+    classifier = 'javadoc'
+    from javadoc
+}
+
+task sourcesJar(type: Jar) {
+    classifier = 'sources'
+    from sourceSets.main.allSource
+}
+
+artifacts {
+    archives javadocJar, sourcesJar
+}
+
+signing {
+    sign configurations.archives
 }
 
 sourceSets {
     main {
         java {
-            srcDirs = ['src']
+            srcDirs = ['src/main']
         }
         resources {
-            srcDirs = ['resources']
+            srcDirs = ['resources/main']
         }
     }
 
     test {
         java {
-            srcDirs = []
+            srcDirs = ['src/test']
         }
         resources {
-            srcDirs = []
+            srcDirs = ['resources/test']
+        }
+    }
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
+
+            repository(url: "https://oss.sonatype.org/service/local/staging/deploy/maven2/") {
+                authentication(userName: ossrhUsername, password: ossrhPassword)
+            }
+
+            snapshotRepository(url: "https://oss.sonatype.org/content/repositories/snapshots/") {
+                authentication(userName: ossrhUsername, password: ossrhPassword)
+            }
+
+            pom.project {
+                name 'zti-utils-scanner'
+                packaging 'jar'
+                description 'A lib from zti-utils bundle that provides console scanning capabilities'
+                url 'https://github.com/Cvazer/zti-utils'
+
+                scm {
+                    connection 'scm:svn:https://github.com/Cvazer/zti-utils'
+                    developerConnection 'scm:svn:https://github.com/Cvazer/zti-utils'
+                    url 'https://github.com/Cvazer/zti-utils'
+                }
+
+                licenses {
+                    license {
+                        name 'The Apache License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+
+                developers {
+                    developer {
+                        id 'Cvazer'
+                        name 'Yan Frankovski'
+                        email 'zhirnitoni@gmail.com'
+                    }
+                }
+            }
         }
     }
 }

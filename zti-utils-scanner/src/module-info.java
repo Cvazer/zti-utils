@@ -1,3 +1,3 @@
-module by.zti.scanner {
+open module by.zti.scanner {
     exports by.zti.scanner;
 }
