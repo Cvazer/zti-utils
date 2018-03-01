@@ -9,7 +9,7 @@ import java.io.*;
  * @author Yan Frankovski
  * @since ZTIU 1.0.2
  */
-@SuppressWarnings("ResultOfMethodCallIgnored")
+@SuppressWarnings({"ResultOfMethodCallIgnored", "WeakerAccess"})
 public class Serializer<T> {
     /** This value stores reference to file to work with */
     private File file;
@@ -65,8 +65,8 @@ public class Serializer<T> {
      */
     @SuppressWarnings("unchecked")
     public T deserialize() {
-        FileInputStream fis = null;
-        ObjectInputStream in = null;
+        FileInputStream fis;
+        ObjectInputStream in;
         try {
             fis = new FileInputStream(file);
             in = new ObjectInputStream(fis);

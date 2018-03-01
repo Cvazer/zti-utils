@@ -15,7 +15,7 @@ import java.net.URLConnection;
  * @since ZTIU 1.1.0
  * @see HTTPConsumable
  */
-@SuppressWarnings("ResultOfMethodCallIgnored")
+@SuppressWarnings({"ResultOfMethodCallIgnored", "WeakerAccess"})
 public class HTTPMessenger implements RESTMessenger{
     /** Reference to the {@code HttpServer} object **/
     private HttpServer server;

@@ -21,6 +21,7 @@ import java.util.Map;
  * @since ZTIU 1.1.0
  * @see Configurator
  */
+@SuppressWarnings("WeakerAccess")
 public class XMLConfigurator implements Configurator {
     /** Reference to the XML file in the file system **/
     private File xml;

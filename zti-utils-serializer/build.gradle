@@ -82,7 +82,7 @@ uploadArchives {
             }
 
             pom.project {
-                name 'zti-utils-scanner'
+                name 'zti-utils-serializer'
                 packaging 'jar'
                 description 'A lib from zti-utils bundle that provides console scanning capabilities'
                 url 'https://github.com/Cvazer/zti-utils'

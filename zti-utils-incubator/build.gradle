@@ -82,9 +82,9 @@ uploadArchives {
             }
 
             pom.project {
-                name 'zti-utils-scanner'
+                name 'zti-utils-incubator'
                 packaging 'jar'
-                description 'A lib from zti-utils bundle that provides console scanning capabilities'
+                description 'A lib from zti-utils bundle that provides different useful capabilities'
                 url 'https://github.com/Cvazer/zti-utils'
 
                 scm {

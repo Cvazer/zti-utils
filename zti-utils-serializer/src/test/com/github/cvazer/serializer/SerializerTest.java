@@ -5,9 +5,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.RandomAccessFile;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -15,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @SuppressWarnings("ResultOfMethodCallIgnored")
 @DisplayName("Serializer")
 class SerializerTest {
-    File file;
+    private File file;
 
     @Test
     @DisplayName("With empty constructor")

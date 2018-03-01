@@ -267,6 +267,7 @@ public class ConsoleScanner {
     /**
      * This method should be used to remove particular command from the scanner.
      * @param command {@code Command} instance to be removed.
+     * @return {@code boolean} true if operation is successful.
      */
     public boolean removeCommand(Command command){
         return commands.remove(command);
@@ -274,7 +275,8 @@ public class ConsoleScanner {
 
     /**
      * This method should be used to remove particular command from the scanner.
-     * @param name {@code String} name of {@code Command} instance to be removed from the scanner.
+     * @param name {@code String} name of {@code Command} instance to be removed from the scanner.\
+     * @return {@code boolean} true if operation is successful.
      */
     public boolean removeCommand(String name){
         Command to_remove = null;
@@ -284,7 +286,7 @@ public class ConsoleScanner {
             }
         }
         if (to_remove!=null){commands.remove(to_remove); return true;}
-        else return false;
+        else {return false;}
     }
 
     /**
