@@ -12,7 +12,7 @@
     <xs:element name="configuration">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="con:field" maxOccurs="unbounded" minOccurs="0" xmlns:con="https://com.github.cvazer/configurator"/>
+                <xs:element ref="con:param" maxOccurs="unbounded" minOccurs="0" xmlns:con="https://com.github.cvazer/configurator"/>
             </xs:sequence>
             <xs:attribute type="xs:string" name="id" use="required"/>
         </xs:complexType>
