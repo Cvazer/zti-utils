@@ -75,9 +75,8 @@ public class Serializer<T> {
             fis.close();
             return (T) object;
         } catch (IOException | ClassNotFoundException e) {
-            e.printStackTrace();
+            return null;
         }
-        return null;
     }
 
     /**

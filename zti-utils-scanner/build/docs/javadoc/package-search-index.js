@@ -1,1 +1,0 @@
-packageSearchIndex = [{"m":"by.zti.scanner","l":"by.zti.scanner"}]

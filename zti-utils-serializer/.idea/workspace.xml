@@ -2,95 +2,176 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="082fd398-9f78-41c3-a14f-0ab3255ee7a4" name="Default" comment="1.1.1 update">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/release/1.1.1/zti-utils-serializer-1.1.1-javadoc.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/release/1.1.1/zti-utils-serializer-1.1.1.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/com/github/cvazer/serializer/Serializer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/github/cvazer/serializer/SerializerTest.java" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules/zti-utils-incubator.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../zti-utils-incubator/build.gradle" afterPath="$PROJECT_DIR$/../zti-utils-incubator/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/../zti-utils-incubator/src/by/zti/incubator/configurator/Configurator.java" afterPath="$PROJECT_DIR$/../zti-utils-incubator/src/by/zti/incubator/configurator/Configurator.java" />
-      <change beforePath="$PROJECT_DIR$/../zti-utils-incubator/src/by/zti/incubator/configurator/XMLConfigurator.java" afterPath="$PROJECT_DIR$/../zti-utils-incubator/src/by/zti/incubator/configurator/XMLConfigurator.java" />
-      <change beforePath="$PROJECT_DIR$/../zti-utils-incubator/src/module-info.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../zti-utils-legacy/build.gradle" afterPath="$PROJECT_DIR$/../zti-utils-legacy/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/../zti-utils-legacy/src/module-info.java" afterPath="$PROJECT_DIR$/../zti-utils-legacy/src/module-info.java" />
-      <change beforePath="$PROJECT_DIR$/../zti-utils-legacy/zti-utils-legacy.iml" afterPath="$PROJECT_DIR$/../zti-utils-legacy/zti-utils-legacy.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/.idea/gradle.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/.idea/libraries/Gradle__commons_io_commons_io_1_3_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/release/1.1.1/zti-utils-scanner-1.1.1-javadoc.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/release/1.1.1/zti-utils-scanner-1.1.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/src/main/com/github/cvazer/scanner/Command.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/src/main/com/github/cvazer/scanner/ConsoleScanner.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/src/main/com/github/cvazer/scanner/Consumable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/src/test/com/github/cvazer/scanner/CommandTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/src/test/com/github/cvazer/scanner/ConsoleScannerTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../zti-utils-scanner/src/test/com/github/cvazer/scanner/ConsumableTest.java" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/../zti-utils-scanner/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/.gradle/buildOutputCleanup/cache.properties" afterPath="$PROJECT_DIR$/../zti-utils-scanner/.gradle/buildOutputCleanup/cache.properties" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/../zti-utils-scanner/.gradle/buildOutputCleanup/outputFiles.bin" />
       <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build.gradle" afterPath="$PROJECT_DIR$/../zti-utils-scanner/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/src/module-info.java" afterPath="$PROJECT_DIR$/../zti-utils-scanner/src/module-info.java" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/classes/java/main/by/zti/scanner/Command.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/classes/java/main/by/zti/scanner/ConsoleScanner.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/classes/java/main/by/zti/scanner/Consumable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/classes/java/main/module-info.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/allclasses-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/allclasses-noframe.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/by.zti.scanner-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/by/zti/scanner/Command.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/by/zti/scanner/ConsoleScanner.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/by/zti/scanner/Consumable.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/by/zti/scanner/package-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/by/zti/scanner/package-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/by/zti/scanner/package-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/constant-values.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/deprecated-list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/help-doc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/index-all.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/external/jquery/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/jquery-1.10.2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/jquery-ui.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/jquery-ui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/jquery-ui.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/jquery-ui.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/jquery-ui.structure.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/jquery-ui.structure.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/jszip-utils/dist/jszip-utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/jszip-utils/dist/jszip-utils.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/jszip/dist/jszip.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/jquery/jszip/dist/jszip.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/member-search-index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/member-search-index.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/module-search-index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/module-search-index.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/overview-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/package-list" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/package-search-index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/package-search-index.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/resources/glass.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/resources/x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/script.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/search.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/stylesheet.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/type-search-index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/docs/javadoc/type-search-index.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/ivy.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/libs/zti-utils-scanner-1.1.0-javadoc.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/libs/zti-utils-scanner-1.1.0-javadoc.jar.asc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/libs/zti-utils-scanner-1.1.0-sources.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/libs/zti-utils-scanner-1.1.0-sources.jar.asc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/libs/zti-utils-scanner-1.1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/libs/zti-utils-scanner-1.1.0.jar.asc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/poms/pom-default.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/poms/pom-default.xml.asc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/tmp/jar/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/tmp/javadoc/javadoc.options" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/tmp/javadocJar/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/build/tmp/sourcesJar/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/allclasses-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/allclasses-noframe.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/by/zti/scanner/Command.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/by/zti/scanner/ConsoleScanner.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/by/zti/scanner/Consumable.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/by/zti/scanner/package-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/by/zti/scanner/package-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/by/zti/scanner/package-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/constant-values.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/deprecated-list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/help-doc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/index-all.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/javadoc.rar" afterPath="$PROJECT_DIR$/../zti-utils-scanner/release/1.1.0/zti-utils-scanner-1.1.0-javadoc.rar" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/external/jquery/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/jquery-1.10.2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/jquery-ui.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/jquery-ui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/jquery-ui.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/jquery-ui.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/jquery-ui.structure.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/jquery-ui.structure.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/jszip-utils/dist/jszip-utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/jszip-utils/dist/jszip-utils.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/jszip/dist/jszip.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/jquery/jszip/dist/jszip.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/member-search-index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/member-search-index.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/module-search-index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/module-search-index.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/overview-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/package-list" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/package-search-index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/package-search-index.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/resources/glass.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/resources/x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/script.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/search.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/stylesheet.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/type-search-index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/type-search-index.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/javadoc/zti.utils.scanner-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/release/changelog.txt" afterPath="$PROJECT_DIR$/../zti-utils-scanner/release/changelog.txt" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/release/zti-utils-scanner-1.1.0.jar" afterPath="$PROJECT_DIR$/../zti-utils-scanner/release/1.1.0/zti-utils-scanner-1.1.0.jar" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/src/by/zti/scanner/Command.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/src/by/zti/scanner/ConsoleScanner.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/src/by/zti/scanner/Consumable.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/src/module-info.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../zti-utils-scanner/zti-utils-scanner.iml" afterPath="$PROJECT_DIR$/../zti-utils-scanner/zti-utils-scanner.iml" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/serializer/Serializer.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/serializer/package-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/serializer/package-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/by/zti/serializer/package-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/constant-values.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-all.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/javadoc.rar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/external/jquery/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-icons_454545_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-icons_888888_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jquery-1.10.2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jquery-ui.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jquery-ui.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jquery-ui.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jquery-ui.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jquery-ui.structure.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jquery-ui.structure.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jszip-utils/dist/jszip-utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jszip-utils/dist/jszip-utils.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jszip/dist/jszip.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/jquery/jszip/dist/jszip.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/member-search-index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/member-search-index.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/module-search-index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/module-search-index.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/package-list" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/package-search-index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/package-search-index.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resources/glass.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resources/x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/script.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/search.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/stylesheet.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/type-search-index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/type-search-index.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/javadoc/zti.utils.serializer-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/release/changelog.txt" afterPath="$PROJECT_DIR$/release/changelog.txt" />
-      <change beforePath="$PROJECT_DIR$/release/zti-utils-serializer-1.1.0.jar" afterPath="$PROJECT_DIR$/release/1.1.0/zti-utils-serializer-1.1.0.jar" />
-      <change beforePath="$PROJECT_DIR$/src/by/zti/serializer/Serializer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/module-info.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zti-utils-serializer.iml" afterPath="$PROJECT_DIR$/zti-utils-serializer.iml" />
-      <change beforePath="$PROJECT_DIR$/../zti-utils.ipr" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../zti-utils.iws" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/fileContent.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/resourceHashesCache.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/github/cvazer/serializer/Serializer.java" afterPath="$PROJECT_DIR$/src/main/com/github/cvazer/serializer/Serializer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -109,6 +190,7 @@
     <SUITE FILE_PATH="coverage/zti_utils_serializer$SerializerTest_emptyConstruct.coverage" NAME="SerializerTest.emptyConstruct Coverage Results" MODIFIED="1519846589692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.github.cvazer.serializer.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/zti_utils_serializer$zti_utils_serializer__junitPlatformTest_.coverage" NAME="zti-utils-serializer [junitPlatformTest] Coverage Results" MODIFIED="1519898141282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/zti_utils_serializer$SerializerTest.coverage" NAME="SerializerTest Coverage Results" MODIFIED="1519847457459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.github.cvazer.serializer.*</FILTER>
     </SUITE>
@@ -154,8 +236,8 @@
       <file leaf-file-name="SerializerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/github/cvazer/serializer/SerializerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="69" column="5" lean-forward="false" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+            <state relative-caret-position="297">
+              <caret line="68" column="61" lean-forward="false" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#521#522#0" expanded="true" />
@@ -165,11 +247,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Serializer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FileInputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/io/FileInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Serializer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/com/github/cvazer/serializer/Serializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="79" column="20" lean-forward="false" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+            <state relative-caret-position="238">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#Serializer#0" expanded="false" />
                 <element signature="docComment;method#Serializer#0;class#Serializer#0" expanded="false" />
@@ -179,11 +271,11 @@
                 <element signature="docComment;method#serialize#0;class#Serializer#0" expanded="false" />
                 <element signature="docComment;method#deserialize#0;class#Serializer#0" expanded="false" />
                 <element signature="docComment;method#getFile#0;class#Serializer#0" expanded="false" />
-                <element signature="e#2582#2583#0" expanded="true" />
-                <element signature="e#2609#2610#0" expanded="true" />
+                <element signature="e#2553#2554#0" expanded="true" />
+                <element signature="e#2580#2581#0" expanded="true" />
                 <element signature="docComment;method#setFile#0;class#Serializer#0" expanded="false" />
-                <element signature="e#2722#2723#0" expanded="true" />
-                <element signature="e#2754#2755#0" expanded="true" />
+                <element signature="e#2693#2694#0" expanded="true" />
+                <element signature="e#2725#2726#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,7 +291,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="changelog.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="changelog.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/release/changelog.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -571,9 +663,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/by/zti/serializer/Serializer.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/release/changelog.txt" />
         <option value="$PROJECT_DIR$/src/main/com/github/cvazer/serializer/Serializer.java" />
         <option value="$PROJECT_DIR$/src/test/com/github/cvazer/serializer/SerializerTest.java" />
-        <option value="$PROJECT_DIR$/release/changelog.txt" />
       </list>
     </option>
   </component>
@@ -583,7 +675,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-21" />
     <option name="y" value="-4" />
     <option name="width" value="1299" />
@@ -605,7 +697,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -613,16 +707,10 @@
               <item name="zti-utils-serializer" type="b2602c69:ProjectViewProjectNode" />
               <item name="zti-utils-serializer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="zti-utils-serializer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -655,7 +743,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.zti-utils-serializer [clean]">
+  <component name="RunManager" selected="Gradle.zti-utils-serializer [junitPlatformTest]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -832,11 +920,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [clean]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [jar]" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [build]" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [javadoc]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [junitPlatformTest]" />
+        <item index="0" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [junitPlatformTest]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [clean]" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [jar]" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [build]" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.zti-utils-serializer [javadoc]" />
       </list>
     </recent_temporary>
   </component>
@@ -854,7 +942,8 @@
       <option name="presentableId" value="Default" />
       <updated>1519839912926</updated>
       <workItem from="1519839914334" duration="7828000" />
-      <workItem from="1519847761685" duration="224000" />
+      <workItem from="1519847761685" duration="285000" />
+      <workItem from="1519897735889" duration="419000" />
     </task>
     <servers />
   </component>
@@ -891,23 +980,24 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8052000" />
+    <option name="totallyTimeSpent" value="8532000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15831557" sideWeight="0.5105348" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15831557" sideWeight="0.49565217" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15831557" sideWeight="0.48946515" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -918,9 +1008,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15831557" sideWeight="0.5043478" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -965,7 +1053,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/com/github/cvazer/serializer/SerializerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
+        <state relative-caret-position="1173">
           <caret line="69" column="5" lean-forward="false" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -988,11 +1076,11 @@
             <element signature="docComment;method#serialize#0;class#Serializer#0" expanded="false" />
             <element signature="docComment;method#deserialize#0;class#Serializer#0" expanded="false" />
             <element signature="docComment;method#getFile#0;class#Serializer#0" expanded="false" />
-            <element signature="e#2582#2583#0" expanded="true" />
-            <element signature="e#2609#2610#0" expanded="true" />
+            <element signature="e#2553#2554#0" expanded="true" />
+            <element signature="e#2580#2581#0" expanded="true" />
             <element signature="docComment;method#setFile#0;class#Serializer#0" expanded="false" />
-            <element signature="e#2722#2723#0" expanded="true" />
-            <element signature="e#2754#2755#0" expanded="true" />
+            <element signature="e#2693#2694#0" expanded="true" />
+            <element signature="e#2725#2726#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1005,40 +1093,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javadoc/com/github/cvazer/serializer/Serializer.html">
+    <entry file="file://$PROJECT_DIR$/release/changelog.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/io/RandomAccessFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="58" column="13" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/github/cvazer/serializer/Serializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="79" column="20" lean-forward="false" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
-          <folding>
-            <element signature="docComment;class#Serializer#0" expanded="false" />
-            <element signature="docComment;method#Serializer#0;class#Serializer#0" expanded="false" />
-            <element signature="docComment;method#Serializer#1;class#Serializer#0" expanded="false" />
-            <element signature="method#Serializer#1;class#Serializer#0" expanded="false" />
-            <element signature="docComment;method#Serializer#2;class#Serializer#0" expanded="false" />
-            <element signature="docComment;method#serialize#0;class#Serializer#0" expanded="false" />
-            <element signature="docComment;method#deserialize#0;class#Serializer#0" expanded="false" />
-            <element signature="docComment;method#getFile#0;class#Serializer#0" expanded="false" />
-            <element signature="e#2582#2583#0" expanded="true" />
-            <element signature="e#2609#2610#0" expanded="true" />
-            <element signature="docComment;method#setFile#0;class#Serializer#0" expanded="false" />
-            <element signature="e#2722#2723#0" expanded="true" />
-            <element signature="e#2754#2755#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1054,6 +1113,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/github/cvazer/serializer/Serializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="79" column="20" lean-forward="false" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+          <folding>
+            <element signature="docComment;class#Serializer#0" expanded="false" />
+            <element signature="docComment;method#Serializer#0;class#Serializer#0" expanded="false" />
+            <element signature="docComment;method#Serializer#1;class#Serializer#0" expanded="false" />
+            <element signature="method#Serializer#1;class#Serializer#0" expanded="false" />
+            <element signature="docComment;method#Serializer#2;class#Serializer#0" expanded="false" />
+            <element signature="docComment;method#serialize#0;class#Serializer#0" expanded="false" />
+            <element signature="docComment;method#deserialize#0;class#Serializer#0" expanded="false" />
+            <element signature="docComment;method#getFile#0;class#Serializer#0" expanded="false" />
+            <element signature="e#2553#2554#0" expanded="true" />
+            <element signature="e#2580#2581#0" expanded="true" />
+            <element signature="docComment;method#setFile#0;class#Serializer#0" expanded="false" />
+            <element signature="e#2693#2694#0" expanded="true" />
+            <element signature="e#2725#2726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1428">
@@ -1062,26 +1143,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/test-results/junit-platform/TEST-junit-jupiter.xml">
+    <entry file="file://$PROJECT_DIR$/javadoc/com/github/cvazer/serializer/Serializer.html" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/io/RandomAccessFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1145">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="197">
+          <caret line="58" column="13" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javadoc/com/github/cvazer/serializer/Serializer.html">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1428">
+          <caret line="84" column="22" lean-forward="false" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/test-results/junit-platform/TEST-junit-jupiter.xml" />
+    <entry file="file://$PROJECT_DIR$/javadoc/com/github/cvazer/serializer/Serializer.html" />
     <entry file="file://$PROJECT_DIR$/release/changelog.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/github/cvazer/serializer/SerializerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="68" column="61" lean-forward="false" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/github/cvazer/serializer/Serializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#Serializer#0" expanded="false" />
+            <element signature="docComment;method#Serializer#0;class#Serializer#0" expanded="false" />
+            <element signature="docComment;method#Serializer#1;class#Serializer#0" expanded="false" />
+            <element signature="method#Serializer#1;class#Serializer#0" expanded="false" />
+            <element signature="docComment;method#Serializer#2;class#Serializer#0" expanded="false" />
+            <element signature="docComment;method#serialize#0;class#Serializer#0" expanded="false" />
+            <element signature="docComment;method#deserialize#0;class#Serializer#0" expanded="false" />
+            <element signature="docComment;method#getFile#0;class#Serializer#0" expanded="false" />
+            <element signature="e#2553#2554#0" expanded="true" />
+            <element signature="e#2580#2581#0" expanded="true" />
+            <element signature="docComment;method#setFile#0;class#Serializer#0" expanded="false" />
+            <element signature="e#2693#2694#0" expanded="true" />
+            <element signature="e#2725#2726#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"by.zti.incubator.configurator"},{"l":"by.zti.incubator.http"},{"l":"by.zti.incubator.rest"}]

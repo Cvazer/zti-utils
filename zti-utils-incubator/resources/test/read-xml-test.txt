@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configurations xmlns="https://com.github.cvazer/configurator"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="
+                https://com.github.cvazer/configurator
+                https://raw.githubusercontent.com/Cvazer/zti-utils/master/zti-utils-incubator/configurator.xsd">
+    <configuration id="main">
+        <param name="test" value="test2"/>
+        <param name="test3" value="test4"/>
+    </configuration>
+</configurations>
