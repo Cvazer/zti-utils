@@ -1,5 +1,5 @@
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="https://com.github.cvazer/configurator" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="field">
+    <xs:element name="param">
         <xs:complexType>
             <xs:simpleContent>
                 <xs:extension base="xs:string">
